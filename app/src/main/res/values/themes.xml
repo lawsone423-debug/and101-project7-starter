@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default theme for API 10 and lower -->
+    <style name="Theme.Default">
+        <item name="isLightTheme">false</item>
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <!-- Light theme for API 11+ -->
+    <style name="Theme.Light" parent="Theme.DeviceDefault.Light">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/primary_light_dark</item>
+        <item name="colorAccent">@color/accent_light</item>
+    </style>
+
+    <!-- Custom theme for API 31+ -->
+    <style name="Theme.Custom" parent="Theme.DeviceDefault">
+        <item name="colorPrimary">@color/primary_custom</item>
+        <item name="colorPrimaryDark">@color/primary_custom_dark</item>
+        <item name="colorAccent">@color/accent_custom</item>
+    </style>
+
+</resources>
